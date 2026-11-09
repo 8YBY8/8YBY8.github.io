@@ -12,3 +12,6 @@ end
 
 gem 'kramdown'
 gem 'kramdown-parser-gfm'
+
+# Windows does not ship a zoneinfo database, so local builds need tzinfo-data
+gem 'tzinfo-data', platforms: [:windows, :jruby]

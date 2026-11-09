@@ -23,10 +23,10 @@ repository               : "8YBY8/8YBY8.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "avatar.jpg"
   name             : "Bingyang Yu"
   pronouns         : # example: "she/her"  
-  bio              : "ex-SWE intern @ Microsoft AI | MS ECE PMP student @ University of Washington | Passionate about AI, ML, and Cloud Computing"
+  bio              : "ex-SWE intern @ Microsoft AI | MS ECE PMP student @ University of Washington"
   location         : "Seattle, WA"
   employer         : "University of Washington"
   uri              : # URL
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : www.linkedin.com/in/bingyangyu # Username
+  linkedin         : bingyangyu # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

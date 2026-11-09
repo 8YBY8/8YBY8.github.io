@@ -1,12 +1,76 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+# title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+  - /cv/
+  - /resume
 ---
 
+{% include base_path %}
+
+Welcome to Bingyang's Homepage!
+======
+I'm a master's student in Electrical and Computer Engineering at the **University of Washington**, expecting to graduate in December 2027. I received my B.S. in Mathematics-Computer Science from **UC San Diego** in 2023.
+
+For industry experience, I have interned at **Microsoft (MAI)**, where I built ad components for the Bing search results page with a focus on revenue growth; at **ByteDance**, focusing on Go RPC services and an agentic RAG platform for LLM agents; and at **JD.com**, where I built front-end and back-end features for internal financial systems.
+
+Education
+======
+* **University of Washington**, Seattle, WA — M.S. in Electrical and Computer Engineering (expected Dec. 2027)
+* **University of California, San Diego**, La Jolla, CA — B.S. in Mathematics-Computer Science (June 2023)
+
+Work experience
+======
+* **ByteDance** — Software Engineer Intern (June 2026 – Sep. 2026)
+  * Built Go RPC services and an agentic RAG platform for LLM agents.
+
+* **Microsoft (MAI)** — Software Engineer Intern (Feb. 2025 – June 2025)
+  * Built ad components for the Bing Search Engine Results Page, focused on revenue growth.
+
+* **JD.com** — Software Developer Intern (Oct. 2024 – Jan. 2025)
+  * Built front-end and back-end features for JD's internal financial systems.
+  
+{% comment %}
+Skills
+======
+* Skill 1
+* Skill 2
+  * Sub-skill 2.1
+  * Sub-skill 2.2
+  * Sub-skill 2.3
+* Skill 3
+
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Talks
+======
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
+  
+Teaching
+======
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+{% endcomment %}
+  
+Service and leadership
+======
+* **EnVision Arts and Engineering Maker Studio**, UC San Diego — Volunteer (Mar. 2023 – June 2023)
+  * Trained new students on 3D printers and laser cutters and provided technical guidance on maker projects.
+
+* **Rocket Propulsion Laboratory**, UC San Diego (Oct. 2022 – May 2023)
+  * Designed, assembled, and launched a small-scale solid-propellant rocket.
+
+{% comment %}
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
  You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
@@ -54,3 +118,4 @@ Example: editing a Markdown file for a talk
 For more info
 ------
 More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+{% endcomment %}
